@@ -15,6 +15,10 @@ export const ProjectsInfo = [
 
     {img : 'assets/project2.png' , name : 'Rock Paper Scissor' , techUsed : 'HTML,CSS,JavaScript' , desc : "The Rock Paper Scissors project is an interactive and engaging frontend application built ,It allows them to play the classic game against the computer and test their luck and strategy in a visually appealing interface.",
     link : 'https://ujju2000.github.io/rock-paper-scissor/'},
+   {
+       img: 'assets/project3.png',name : 'Journal Compose' , techUsed : 'Mongoose, express,ejs' , desc  : 'Developed a journal writing website with CRUD options, integrated with MongoDB. Users can write, save, update, and delete their daily entries.',
+        link : 'https://compose-jounral-repo.onrender.com/'
+   }
 
 
 ]
