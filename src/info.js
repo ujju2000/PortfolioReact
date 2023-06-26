@@ -19,6 +19,9 @@ export const ProjectsInfo = [
        img: 'assets/project3.png',name : 'Journal Compose' , techUsed : 'Mongoose, express,ejs' , desc  : 'Developed a journal writing website with CRUD options, integrated with MongoDB. Users can write, save, update, and delete their daily entries.',
         link : 'https://compose-jounral-repo.onrender.com/'
    }
+]
 
-
+export const clientWork = [
+    {name : 'Filco Spare India' , img : 'assets/clientWork1.png' , link : 'https://www.filcospareindia.com'},
+    {name : 'Fashion Blogging Analysis Tool' , img: 'assets/clientWork2.png' , link : ''}
 ]
