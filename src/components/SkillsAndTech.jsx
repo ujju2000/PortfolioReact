@@ -4,9 +4,9 @@ import Card from './Card';
 
 export default function skillsAndTech() {
   return (
-    <div>
+    <div id= "skills">
         <div className='text-center mx-auto p-10'>
-            <h1 className = 'text-4xl text-white tracking-wide'>Skills and Technologies</h1>
+            <h1 className = 'text-4xl text-white tracking-wide font-bold'>Skills and Technologies</h1>
             <p>
 
             </p>
@@ -15,7 +15,7 @@ export default function skillsAndTech() {
             {
                 skillsTech.map((skill) => <Card name = {skill.name} width  = {skill.percent} />)
             }
-            {/* make one array of object of what you knows and with the percent with that  and make one card and then give that values uing map function */}
+            
         </div>
     </div>
   )

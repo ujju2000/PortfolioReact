@@ -1,14 +1,14 @@
 
 import React from 'react'
-import { icons } from 'react-icons';
+
 import { FaPhone, FaTwitter, FaLinkedin,FaGithub , FaInstagram}  from 'react-icons/fa';
 import {MdLocationOn, MdMessage} from 'react-icons/md';
 const classStyles = 'flex items-center ';
 const iconStyle = 'mr-10 cursor-pointer hover:bg-slate-700 hover:duration-500 hover:ease-in-out rounded-md';
 export default function Footer() {
   return (
-    <footer className='w-[90%] md:w-[60%] p-[20px] md:p-[40px] bg-black flex mx-auto my-20 '>
-            <div className = 'w-full flex flex-col text-[20px] justify-between '>
+    <footer className='w-[90%] md:w-[80%] lg:w-[60% ] p-[20px] sm:p-[20px] md:p-[40px] bg-black flex mx-auto my-20 flex-col md:flex-row '>
+            <div className = 'w-full flex flex-col text-[20px] justify-between mb-[20px]'>
                 <div className = {classStyles}>
                     <MdLocationOn size = {20} className = {iconStyle}/>
                     GovindPuram, Ghaziabad
@@ -28,7 +28,7 @@ export default function Footer() {
                 </p>
 
                 <div className = 'flex items-center justify-start text-2xl my-10  '>
-                    <FaTwitter className = {iconStyle}/>
+                    <FaTwitter href = '' className = {iconStyle}/>
                     <FaLinkedin className = {iconStyle}/>
                     <FaGithub className = {iconStyle}/>
                     <FaInstagram className = {iconStyle}/>
