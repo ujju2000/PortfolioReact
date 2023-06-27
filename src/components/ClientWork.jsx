@@ -4,9 +4,9 @@ import {clientWork} from '../info';
 
 export default function ClientWork() {
   return (
-    <div className = 'w-full mx-auto my-[20px] p-20 ' id = 'clients'>
+    <div className = 'w-full mx-auto my-[20px] p-10 sm:p-20 ' id = 'clients'>
         <h1 className = 'text-4xl text-white tracking-wide text-center font-bold '>Client Work</h1>
-        <p className = 'text-center mt-4 mb-[10px]'>There are some projects I made for some of my clients</p>
+        <p className = 'text-xl md:text-2xl text-center my-4 mb-[10px]'>There are some projects I made for some of my clients</p>
         <div className='w-full sm:w-[80%] mx-auto grid md:grid-cols-2 gap-5'>
             {clientWork.map((work) => {
                 return(

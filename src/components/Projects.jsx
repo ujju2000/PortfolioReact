@@ -6,8 +6,8 @@ export default function Projects() {
   return (
     <div className = 'w-full mx-auto my-[20px] p-20 ' id = 'projects'>
         <h1 className = 'text-4xl text-white tracking-wide text-center font-bold '>Projects I've built</h1>
-        <p className = 'text-center mt-4 mb-[10px]'>There are some projects I have worked on and there are many more to come that I'm currently working on the project</p>
-        <div className='text-white w-full sm:w-[80%] mx-4 sm:mx-auto grid md:grid-cols-2 gap-5'>
+        <p className = 'text-xl md:text-2xl text-center my-4 '>"Discover a compilation of my diverse projects, each showcasing my dedication and expertise in crafting unique digital experiences with meticulous attention to detail."</p>
+        <div className='text-white w-full sm:w-[80%] sm:mx-auto grid md:grid-cols-2 gap-5'>
          { ProjectsInfo.map((project) => {
               return (
                   <ProjectCard 
