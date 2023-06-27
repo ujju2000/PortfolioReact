@@ -12,7 +12,8 @@ export default function Contact() {
             <h1 className = 'text-white font-bold text-4xl'>Hire Me</h1>
             <p>Feel Free to contact me</p>
 
-            <form className="w-full flex flex-col " action ='post'>
+            <form className="w-full flex flex-col " action = '' method ='post'>
+            {/* https://forms.gle/B6HwbqR13RrNwCZN7 */}
                 <label className = 'text-1xl my-2 rounded' htmlFor="">Name:
                     <input className ={inputStyle} type="text" name="" id="" autoComplete='off'/>
                 </label>

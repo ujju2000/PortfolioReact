@@ -31,9 +31,11 @@ export default function Header() {
         <div className= {!menu ? 'fixed left-[-100%] ease-in-out duration-500 ': 'p-5 fixed top-0 w-[60%] left-0 h-[500px] border-r bg-[#000a14] ease-in-out duration-500 md:hidden border-r-grey-100 '}>
         <h1 className = ' text-white font-bold text-2xl pr-5 md:border-r border-grey-300 mr-1 tracking-wide '>Ujjwal Tarika</h1>
             <ul className = 'mt-10 uppercase text-2xl font-bold'>
-              <li className = {liStyles}><a href = "#" onClick={handleClick}>My Projects</a>  </li>
+              <li className = {liStyles}><a href = "#projects" onClick={handleClick}>My Projects</a>  </li>
               <li className = {liStyles}><a href = "#skills" onClick = {handleClick}>Skills</a> </li>
               <li className = {liStyles}><a href = "#contact" onClick={handleClick}>Hire me</a> </li>
+              <li className = {liStyles}><a href = "#clients" onClick={handleClick}>Client Work</a> </li>
+
             </ul>
         </div>
     </div>

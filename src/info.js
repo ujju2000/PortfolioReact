@@ -4,7 +4,8 @@ export const skillsTech = [{name : 'Java' , percent : '70'} ,
     {name : 'bootstrap' , percent : '70'},
     { name : 'Github' , percent : '90'}, 
     {name : 'mongoDB', percent : '50'},
-    {name : 'IOT' , percent : '50'}
+    {name : 'IOT' , percent : '50'},
+    {name : 'Tailwind'}
 ]
 
 export const ProjectsInfo = [
@@ -23,5 +24,5 @@ export const ProjectsInfo = [
 
 export const clientWork = [
     {name : 'Filco Spare India' , img : 'assets/clientWork1.png' , link : 'https://www.filcospareindia.com'},
-    {name : 'Fashion Blogging Analysis Tool' , img: 'assets/clientWork2.png' , link : ''}
+    {name : 'Fashion Blogging Analysis Tool' , img: 'assets/clientWork2.png' , link : 'https://drive.google.com/file/d/1ev7SCgSPkVZ1VTJKQTMSb0QiGKtGR0Ka/view?usp=sharing'}       
 ]

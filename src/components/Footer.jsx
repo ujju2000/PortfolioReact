@@ -24,14 +24,14 @@ export default function Footer() {
             </div>
             <div className  ='flex flex-col '>
                 <h2 className = 'font-[20px] md:font-[18px] text-white font-bold'>About me</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident vel voluptates ea? Eius, aliquam magnam! Recusandae quasi aut molestiae id.
+                <p>I'm self taught fullstack dev.I am eager to bring my enthusiasm, technical skills, and passion for creating exceptional software solutions to the team.
                 </p>
 
                 <div className = 'flex items-center justify-start text-2xl my-10  '>
-                    <FaTwitter href = '' className = {iconStyle}/>
-                    <FaLinkedin className = {iconStyle}/>
-                    <FaGithub className = {iconStyle}/>
-                    <FaInstagram className = {iconStyle}/>
+                    <a href = 'https://twitter.com/TarikaUjjwal' ><FaTwitter href = '' className = {iconStyle}/></a>
+                    <a href = 'https://www.linkedin.com/in/ujjwal-tarika-41928a20b/' ><FaLinkedin className = {iconStyle}/></a>
+                    <a href = 'https://github.com/ujju2000'><FaGithub className = {iconStyle}/></a>
+                    <a href = 'https://www.instagram.com/ujjwal_tarika_/'><FaInstagram className = {iconStyle}/></a>
                 </div>
             </div>
     </footer>
