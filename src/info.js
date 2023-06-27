@@ -4,7 +4,7 @@ export const skillsTech = [{name : 'Java' , percent : '70'} ,
     {name : 'bootstrap' , percent : '70'},
     { name : 'Github' , percent : '90'}, 
     {name : 'mongoDB', percent : '50'},
-    {name : 'IOT' , percent : '50'},
+    {name : 'JavaScript' , percent : '50'},
     {name : 'Tailwind'}
 ]
 
