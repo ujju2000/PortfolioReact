@@ -19,7 +19,11 @@ export const ProjectsInfo = [
    {
        img: 'assets/project3.png',name : 'Journal Compose' , techUsed : 'Mongoose, express,ejs' , desc  : 'Developed a journal writing website with CRUD options, integrated with MongoDB. Users can write, save, update, and delete their daily entries.',
         link : 'https://compose-jounral-repo.onrender.com/'
-   }
+   },
+   {img : 'assets/project4.png', name : 'Movie-recommendation' , 
+   techUsed : 'React , Styled-components, axios' , 
+   desc : 'Built React app with Styled Components, OMDB API, and Axios. Provided personalized movie recommendations by fetching data from OMDB API. Presenting front-end skills, API integration, and user-friendly development.',
+    link : 'https://ujju2000.github.io/movie-react'}
 ]
 
 export const clientWork = [
