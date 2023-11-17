@@ -23,7 +23,19 @@ export const ProjectsInfo = [
    {img : 'assets/project4.png', name : 'Movie-recommendation' , 
    techUsed : 'React , Styled-components, axios' , 
    desc : 'Built React app with Styled Components, OMDB API, and Axios. Provided personalized movie recommendations by fetching data from OMDB API. Presenting front-end skills, API integration, and user-friendly development.',
-    link : 'https://ujju2000.github.io/movie-react'}
+    link : 'https://ujju2000.github.io/movie-react'}, 
+    {
+        img: 'assets/project5.png' , name : 'E-commerce cart ', 
+        desc : 'Designed and implemented an intuitive user interface for product filtering and sorting Developed efficient algorithms for seamless real-time filtering of products.',
+        techUsed : 'React, useReducer, React-bootstrap',
+        link  : 'https://ujju2000.github.io/cartFilter'
+    },
+    {
+        img : 'assets/project6.png' , name : 'Image Gallery',
+        techUsed : 'React , Material UI, ContextAPI, unsplashAPI',
+        desc : 'Created a dynamic image gallery using React and Material-UI, integrated with the Unsplash API to fetch high-definition images. Users can search for keywords, and relevant images are displayed in the UI.',
+        link : 'https://image-gallery-ebon-sigma.vercel.app/'
+    }
 ]
 
 export const clientWork = [

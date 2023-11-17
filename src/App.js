@@ -13,7 +13,7 @@ function App() {
       <div className="App text-slate-400">
           <Header />
           <Hero />
-          <Projects />
+          <Projects/>
           <ClientWork />
           <SkillsAndTech />
           <Contact />
