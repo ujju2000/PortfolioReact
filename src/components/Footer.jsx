@@ -11,11 +11,11 @@ export default function Footer() {
             <div className = 'w-full flex flex-col text-[20px] justify-between mb-[20px]'>
                 <div className = {classStyles}>
                     <MdLocationOn size = {20} className = {iconStyle}/>
-                    GovindPuram, Ghaziabad
+                         Ghaziabad
                 </div>
                 <div className = {classStyles}>
                     <FaPhone size = {20} className = {iconStyle}/>
-                    +91 8368377522
+                    +91 8745075753
                 </div>
                 <div className = {classStyles}>
                     <MdMessage size = {20} className = {iconStyle}/>
