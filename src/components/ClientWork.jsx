@@ -26,7 +26,7 @@ export default function ClientWork() {
 function DisplayClientWork(props) {
   return (
     <div className="w-full relative">
-      <a href={props.link} target="_blank" title="Google map location">
+      <a href={props.link} target="_blank" rel="noopener noreferrer">
         <div className="">
           <img
             src={props.img}
